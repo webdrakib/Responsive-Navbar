@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive | Navbar</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <header class="prime_head flex">
+
+
+        <div>
+            <img src="./assets/logo1.png" alt="" class="logo">
+        </div>
+
+        <button class="mobile_nav_toggle" aria-controls="prim_navi" aria-expanded="false">
+            <span class="sr_only">Menu</span>
+        </button>
+
+
+        <nav>
+            <ul id="prim_navi" data-visible="false" class="prim_navi flex">
+                <li class="active">
+                    <a href="index.html">
+                        <span aria-hidden="true">00</span>Home
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="index.html">
+                        <span aria-hidden="true">02</span>Destination
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="index.html">
+                        <span aria-hidden="true">03</span>Contact
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="index.html">
+                        <span aria-hidden="true">04</span>Crew
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    
+    </header>
+
+
+    <script src="nav.js"></script>
+</body>
+</html>
